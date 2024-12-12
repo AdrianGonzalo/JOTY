@@ -15,7 +15,7 @@ export default function Stats() {
 
     return (
         <div className="relative">
-            <div className="grid xl:grid-cols-2 justify-center gap-10 place-items-center mx-auto max-w-screen-lg">
+            <div className="grid xl:grid-cols-2 justify-center gap-10 place-items-center mx-auto max-w-screen-lg min-w-[584px]">
                 <ImageStats src='/stats/Oraclure.png' rel='stats the Oraclure' onClick={handleClick}/>
                 <ImageStats src='/stats/Oraclure.png' rel='stats the brutalito' onClick={handleClick}/>
                 <ImageStats src='/stats/Oraclure.png' rel='stats the Oraclure' onClick={handleClick}/>

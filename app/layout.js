@@ -9,7 +9,7 @@ const overwacht = localFont({
 
 export const metadata = {
   title: "JOTY",
-  description: "website to show the james bond",
+  description: "website to show the james bond in Overwacht 2",
 };
 
 export default function RootLayout({ children }) {
